@@ -4,7 +4,6 @@ namespace Observer
     {
         void Subscribe(IObserver<X> observer);
         void Unsubscribe(IObserver<X> observer);
-
-        void GetTemperature();
+        
     }
 }
